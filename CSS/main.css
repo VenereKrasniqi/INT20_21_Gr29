@@ -1,0 +1,79 @@
+
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    color: white;
+    height: 30px;
+    width: 100%;
+    margin-top: -200;
+    background-color:rgb(0, 15, 20);
+    text-align: left;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer p {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    color: rgb(105, 105, 105);
+}
+#© {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.LatestContent {
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ImageTitle {
+    font-size: 1.2em;
+    color: white;
+}
+
+.BackgroundImage {
+    
+    height: 300px;
+    width: 450px;
+}
+
+.Team-Left {
+    width: 33.33%;
+    float:left;
+}
+
+.Row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.LEC {
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

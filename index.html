@@ -1,16 +1,84 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Home</title>
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="CSS/main.css">
 </head>
-<body style="background-color:black;">
-    <div class="topnav">
-        <a class="active" href="#home">LEC</a>
-        <a href="#news">LCS</a>
-        <a href="#contact">LCK</a>
-        <a href="#about">LPL</a>
-    </div>
+
+<body style="background-color:rgb(0, 20, 26);">
+    <!-- -->
+    <header>
+
+
+        <nav>
+            <div class="logo">
+                
+            </div>
+            <div class=" navButtons" id="myNavButtons">
+                <a href="index.html"><img height="75px" src="images/logo1.png"></a>
+                <a class="page" href="index.html">HOME</a>
+                <a class="page" href="news.html">NEWS</a>
+                <a class="page" href="teams.html">TEAMS</a>
+                <div class="dropdown">
+                    <a class="dropbtn page" href="schedule.html">SCHEDULE</a>
+                    <div class="dropdown-content">
+                        <a href="#">LEC</a>
+                        <a href="#">LCS</a>
+                        <a href="#">LCK</a>
+                        <a href="#">LPL</a>
+                    </div>
+                </div>
+
+                <a class="page" href="standings.html">STANDINGS</a>
+                <a class="page" href="about.html">ABOUT</a>
+               
+            </div>
+
+        </nav>
+        <div class="Content">
+            <div class="header">
+                <br>
+                <div class="LatestContent">LATEST CONTENT</div>
+                <hr>
+            </div>
+            <div class="Content-left">
+                <div class="ContentBlock">
+                    <a class="BackgroundImage" href="#">
+                        <img src="images/luka-perkz-perkovic.jfif" class="BackgroundImage">
+                       <Pre class="ImageTitle">Perkz to C9</Pre>
+                    </a>
+                </div>
+            </div>
+            <div class="Content-right">
+                <div class="ContentBlock">
+                    <a class="BackgroundImage" href="#">
+                        <img src="images/rekkles-g2-esports.jfif" class="BackgroundImage">
+                       <Pre class="ImageTitle">Pogi wogies</Pre>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <ul>
+            <li>
+                <img height="30px" src="images/riot.png">
+            </li>
+            <li>
+                <img height="30px" src="images/leagueoflegendssucks.png">
+            </li>
+            <li id="©">
+                <p style="width: 100;">
+                    © All rights reserved.
+                </p>
+            </li>
+        </ul>
+        
+    </footer>
 </body>
+
 </html>
