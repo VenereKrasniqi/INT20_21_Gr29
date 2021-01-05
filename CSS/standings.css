@@ -1,0 +1,38 @@
+
+.standingcss {
+    margin-left: 10%;
+    table-layout: fixed;
+    width: 1000px;
+    background-color: rgb(31, 36, 36);
+    color: white;
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+    margin-left: 130px;
+}
+
+th, td { 
+    border: 1px solid black;
+    width:25%; 
+    text-align:center; 
+    padding:5px ;
+  
+}
+.number {
+    color: white;
+    size: 3em;
+}
+
+.name {
+    color: white;
+    size: 3em;
+}
+
+.score {
+    color: white;
+    size: 3em;
+}

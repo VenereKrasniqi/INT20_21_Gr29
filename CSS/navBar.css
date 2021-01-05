@@ -50,7 +50,7 @@
     position: absolute;
     background-color: black;
     margin-top: 84px;
-	margin-left: 407px;
+	margin-left: 461px;
     min-width: 146px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -81,21 +81,3 @@
 	background-color: black;
 }
 
-.LatestNewst {
-    color: white;
-}
-
-.Content-left {
- width: 0%;
- float: left;
-}
-
-.Content-right {
-    width: 50%;
-    float: right;
-   }
-
-.ContentBlock {
-    color: white;
-
-}
