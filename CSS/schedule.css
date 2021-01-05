@@ -1,0 +1,17 @@
+.scheduletable {
+    margin-left: 10%;
+    table-layout: fixed;
+    width: 1000px;
+    background-color: rgb(31, 36, 36);
+    color: white;
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+th, td { 
+    border: 1px solid black;
+    width:25%; 
+    text-align:center; 
+    padding:5px ;
+  
+}
