@@ -24,8 +24,8 @@
 .Content-right {
     width: 25%;
     display: inline-block;
-    float:right;
-    overflow:hidden;
+    float: right;
+    overflow: hidden;
     background-color: rgb(35, 39, 46);
     border: none;
 }
