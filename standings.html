@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/navBar.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/standings.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body style="background-color:rgb(0, 20, 26);" onload="LEC()">
@@ -25,12 +26,12 @@
                 <a class="page" href="news.html">NEWS</a>
                 <a class="page" href="teams.html">TEAMS</a>
                 <div class="dropdown">
-                    <a class="dropbtn page" href="schedule.html">SCHEDULE</a>
+                    <a class="dropbtn page" href="scheduleLCS.html">SCHEDULE</a>
                     <div class="dropdown-content">
-                        <a href="#">LEC</a>
-                        <a href="#">LCS</a>
-                        <a href="#">LCK</a>
-                        <a href="#">LPL</a>
+                        <a href="scheduleLEC.html">LEC</a>
+                        <a href="scheduleLCS.html">LCS</a>
+                        <a href="scheduleLCK.html">LCK</a>
+                        <a href="scheduleLPL.html">LPL</a>
                     </div>
                 </div>
 
@@ -42,7 +43,7 @@
             </tr>
         </nav>
         <br>
-        <main class="Standings">
+        <main class="Standings" id="Standings">
             <div id="ButtonCon" class="button">
                 <button class="btn" onclick="LEC()"> <img src="images\LEC\LEC-Logo.png"> </button>
                 <button class="btn" onclick="LCS()"> <img src="images\LCS\LCS-Logo.png"> </button>
@@ -382,24 +383,36 @@
             y.style.display = 'none';
             z.style.display = 'none';
             v.style.display = 'none';
+            document.body.style.backgroundImage = "url('images/StandingsBG/LEC.png')";
+            document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundSize = "cover";
         }
         function LCS() {
             x.style.display = 'none';
             y.style.display = 'block';
             z.style.display = 'none';
             v.style.display = 'none';
+            document.body.style.backgroundImage = "url('images/StandingsBG/LCS.png')";
+            document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundSize = "cover";
         }
         function LCK() {
             x.style.display = 'none';
             y.style.display = 'none';
             z.style.display = 'block';
             v.style.display = 'none';
+            document.body.style.backgroundImage = "url('images/StandingsBG/LCK.png')";
+            document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundSize = "cover";
         }
         function LPL() {
             x.style.display = 'none';
             y.style.display = 'none';
             z.style.display = 'none';
             v.style.display = 'block';
+            document.body.style.backgroundImage = "url('images/StandingsBG/LPL.png')";
+            document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundSize = "cover";
         }
     </script>
 

@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" manifest="demo.appcache">
 
 <head>
     <meta charset="utf-8" />
     <title>Home</title>
     <link rel="stylesheet" href="css/navBar.css">
     <link rel="stylesheet" href="CSS/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).on("click", ".morebtn", function () {
+            $("#morebtn").remove();
+            $("tbody").attr("class", "");
+
+        });
+    </script>
 </head>
 
 <body style="background-color:rgb(0, 20, 26);">
@@ -24,18 +32,18 @@
                 <a class="page" href="news.html">NEWS</a>
                 <a class="page" href="teams.html">TEAMS</a>
                 <div class="dropdown">
-                    <a class="dropbtn page" href="schedule.html">SCHEDULE</a>
+                    <a class="dropbtn page" href="scheduleLCS.html">SCHEDULE</a>
                     <div class="dropdown-content">
-                        <a href="#">LEC</a>
-                        <a href="#">LCS</a>
-                        <a href="#">LCK</a>
-                        <a href="#">LPL</a>
+                        <a href="scheduleLEC.html">LEC</a>
+                        <a href="scheduleLCS.html">LCS</a>
+                        <a href="scheduleLCK.html">LCK</a>
+                        <a href="scheduleLPL.html">LPL</a>
                     </div>
                 </div>
 
                 <a class="page" href="standings.html">STANDINGS</a>
                 <a class="page" href="about.html">ABOUT</a>
-
+                
             </div>
 
         </nav>
@@ -106,32 +114,38 @@
                     <th>
                         <h3>3-2</h3>
                     </th>
+
                     <th>
                         <img src="images\LCS\TL-Logo.png">
                     </th>
                 </tr>
-                <tr class="resultsLEC">
-                    <th>
-                        <img src="images\LEC\Rogue-Logo.png">
-                    </th>
-                    <th>
-                        <h3>2-3</h3>
-                    </th>
-                    <th>
-                        <img src="images\LEC\G2-Logo.png">
-                    </th>
+                <tr>
+                    <td colspan="3" class="morebtn" id="morebtn">Show More</td>
                 </tr>
-                <tr class="resultsLCK">
-                    <th>
-                        <img src="images\LCK\DWG-Logo.png">
-                    </th>
-                    <th>
-                        <h3>0-3</h3>
-                    </th>
-                    <th>
-                        <img src="images\LCK\KDX-Logo.png">
-                    </th>
-                </tr>
+                <tbody class="less">
+                    <tr class="resultsLEC">
+                        <th>
+                            <img src="images\LEC\Rogue-Logo.png">
+                        </th>
+                        <th>
+                            <h3>2-3</h3>
+                        </th>
+                        <th>
+                            <img src="images\LEC\G2-Logo.png">
+                        </th>
+                    </tr>
+                    <tr class="resultsLCK">
+                        <th>
+                            <img src="images\LCK\DWG-Logo.png">
+                        </th>
+                        <th>
+                            <h3>0-3</h3>
+                        </th>
+                        <th>
+                            <img src="images\LCK\KDX-Logo.png">
+                        </th>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </div>
