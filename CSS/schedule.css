@@ -1,8 +1,32 @@
+.schedule {
+    width: 100%;
+    overflow: auto;
+    display: inline-block;
+}
+
+.tableDiv{
+    margin-left: 20%;
+    float: left;
+
+}
+
+.tableSchedule{
+    border: none;
+
+}
+
+.headtable{
+    table-layout: fixed;
+    background-color: rgb(31, 36, 36);
+    color: white;
+    font-size: 2em;
+    border: 1px solid black;
+}
 .scheduletable {
     margin-left: 10%;
     table-layout: fixed;
     width: 1000px;
-    background-color: rgb(31, 36, 36);
+    background-color: rgb(48, 48, 48);
     color: white;
     font-size: 2em;
     border: 1px solid black;
@@ -10,8 +34,6 @@
 
 th, td { 
     border: 1px solid black;
-    width:25%; 
     text-align:center; 
     padding:5px ;
-  
 }
