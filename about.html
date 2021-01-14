@@ -7,16 +7,42 @@
     <title>About</title>
     <link rel="stylesheet" href="css/navBar.css">
     <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/about.css">
+    <style>
+        table,
+
+        td {
+            border: 3px solid black;
+            border-collapse: collapse;
+            padding: 15px;
+
+        }
+    </style>
+    <script>
+        function kohabg() {
+            var ora=new Date().getHours();
+            
+            if (ora <19 && ora >7 ) {
+                document.getElementById("koha").style.backgroundColor = "white";
+            }
+            else {
+                document.getElementById("koha").style.backgroundColor = "gray";
+            }
+        };
+
+    </script>
 </head>
 
-<body style="background-color:rgb(0, 20, 26);">
+<body style="background-color:rgb(0, 20, 26);" onload="kohabg()">
+
+
     <!-- -->
     <header>
 
 
         <nav>
             <div class="logo">
-                
+
             </div>
             <div class=" navButtons" id="myNavButtons">
                 <a href="index.html"><img height="75px" src="images\LoL Logo.png"></a>
@@ -35,12 +61,47 @@
 
                 <a class="page" href="standings.html">STANDINGS</a>
                 <a class="page" href="about.html">ABOUT</a>
-               
+
             </div>
 
         </nav>
+        <br>
+        <div class="aboutpage" id="koha">
+            <div class="titull">
+                <h1 class="toptext"> WHO WE ARE </h1>
+            </div>
+            <b>
+                <p>
+                    [INSERT NAME] is an informative esports website.
+                    Fuelled by that competitive spirit, [INSERT NAME] <br> has developed into the outright market leader
+                    in esports media.
+                    We are also recognized<br> for our coverage of digital influencers emerging from the advent of
+                    social media,<br> whilst our new style of gaming reporting celebrates each community as an
+                    independent world of <br> culture and entertainment.
+                    Our content creators tell stories that matter to a new generation of <br> gaming, esports and
+                    entertainment fans across the globe.
+                </p>
+            </b> <br> <br>
+            <div class="aboutimg">
+                <div class="aboutimgL"><img src="images/about5.jpg"></div>
+                <div class="aboutimgR"> <img style="filter: blur(2px);" src="images/about6.jpg">
+                    <div class="forma">
+                        <h2 class="joinus"> JOIN US? </h2>
+                        <div>
+                            <form> <label for="email">
+                                    <h4 class="youremail">Your e-mail: </h4>
+                                </label> <input type="email" id="email" placeholder="info@example.com"> <br>
+                                <h4 class="youremail">Resume:</h4>
+                                <input type="file" id="myfile" name="filename"> <br> <br>
+                                <input type="submit" class="submitbutton">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
-    <p> About </p>
+
     <footer>
         <div class="FooterClass">
             <img height="30px" src="images/riot.png" style="float: left;">
