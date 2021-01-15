@@ -1,7 +1,11 @@
 
-.LatestNewst {
-    color: white;
+.latestcontent {
+    color: black;
+    text-align: center;
+    background-color: rgb(149, 247, 230);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+
 
 
 .Content {
@@ -26,14 +30,14 @@
     display: inline-block;
     float: right;
     overflow: hidden;
-    background-color: rgb(35, 39, 46);
+    background-color:whitesmoke;
     border: none;
 }
 
 .results{
     table-layout: fixed;
     width: 100%;
-    color: white;
+    color:black;
     font-size: 2em;
     border-collapse: collapse;
 }
@@ -41,21 +45,25 @@
 .resultsLEC{
     background-color: rgb(50, 211, 211);
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .resultsLCS{
     background-color: rgb(50, 88, 211);
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .resultsLCK{
-    background-color: rgb(219, 162, 130);
+    background-color: rgb(12, 13, 71);
     color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .morebtn {
     text-align: center;
     cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .less {
@@ -67,10 +75,7 @@
 
 }
 
-.LatestContent {
-    color: white;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 .ImageTitle {
     font-size: 1.2em;
     color: white;
@@ -96,4 +101,20 @@
     height: 40px;
     width: 100%;
     background-color:rgb(0, 15, 20);
+}
+
+.Content a {
+    text-decoration: none;
+    font-size: 15px;
+}
+.Content a:hover {
+    text-decoration: underline;
+    color:rgb(149, 247, 230);
+}
+
+.recenttext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    text-align: center;
+
 }

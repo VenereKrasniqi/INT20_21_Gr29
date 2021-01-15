@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/standings.css">
     <link rel="stylesheet" href="CSS/MyPicks.css">
+    <link rel="icon" href="images/logo1.png">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="JS\table.js"></script>
@@ -59,11 +60,11 @@
 
             </div>
     </header>
-    <hr width="80%" color=" #62b9ff" left=0;>
+    
     </tr>
     </nav>
     <br>
-    <div class="MyPicksContainer">
+    <div class="MyPicksContainer"> <br>
         <div class="LeftNumbers">
             <h2>1.</h2>
             <h2>2.</h2>
@@ -90,11 +91,11 @@
         </div> 
         <div class="Righttext">
             <h2>Overview</h2>
-            <p>Make a predictions. Pick the teams by dragging and droping them into a position that you
+            <p>Make a prediction. Pick the teams by dragging and droping them into a position that you
                 think they will end up by the end of the year.
-            </p>
+            </p> 
         </div>
-        <button onclick="localStorage.clear();" class="Resetbtn">Clear Local Storage</button>
+        <button onclick="localStorage.clear(); window.location.reload();" class="Resetbtn">RESET PICKS</button> <br><br>
     </div>
     
 
@@ -104,7 +105,7 @@
 
             <img height="30px" src="images/leagueoflegendssucks.png" style="float: left;">
 
-            <p style="margin-left: 88%; color: white;"> © All rights reserved.</p>
+            <p style="margin-left: 85%; color: white;"> © NEXUS All rights reserved.</p>
         </div>
     </footer>
 

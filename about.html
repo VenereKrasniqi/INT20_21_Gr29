@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/navBar.css">
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/about.css">
+    <link rel="icon" href="images/logo1.png">
     <style>
         table,
 
@@ -50,12 +51,12 @@
                 <a class="page" href="news.html">NEWS</a>
                 <a class="page" href="teams.html">TEAMS</a>
                 <div class="dropdown">
-                    <a class="dropbtn page" href="schedule.html">SCHEDULE</a>
+                    <a class="dropbtn page" href="scheduleLEC.html">SCHEDULE</a>
                     <div class="dropdown-content">
-                        <a href="#">LEC</a>
-                        <a href="#">LCS</a>
-                        <a href="#">LCK</a>
-                        <a href="#">LPL</a>
+                        <a href="scheduleLEC.html">LEC</a>
+                        <a href="scheduleLCS.html">LCS</a>
+                        <a href="scheduleLCK.html">LCK</a>
+                        <a href="scheduleLPL.html">LPL</a>
                     </div>
                 </div>
 
@@ -72,8 +73,8 @@
             </div>
             <b>
                 <p>
-                    [INSERT NAME] is an informative esports website.
-                    Fuelled by that competitive spirit, [INSERT NAME] <br> has developed into the outright market leader
+                    NEXUS is an informative esports website.
+                    Fuelled by that competitive spirit, NEXUS <br> has developed into the outright market leader
                     in esports media.
                     We are also recognized<br> for our coverage of digital influencers emerging from the advent of
                     social media,<br> whilst our new style of gaming reporting celebrates each community as an
@@ -93,7 +94,7 @@
                                 </label> <input type="email" id="email" placeholder="info@example.com"> <br>
                                 <h4 class="youremail">Resume:</h4>
                                 <input type="file" id="myfile" name="filename"> <br> <br>
-                                <input type="submit" class="submitbutton">
+                                <input type="submit" class="submitbutton" onclick="onclickAlert()">
                             </form>
                         </div>
                     </div>
@@ -108,9 +109,13 @@
 
             <img height="30px" src="images/leagueoflegendssucks.png" style="float: left;">
 
-            <p style="margin-left: 88%; color: white;"> © All rights reserved.</p>
+            <p style="margin-left: 85%; color: white;"> © NEXUS All rights reserved.</p>
         </div>
     </footer>
 </body>
-
+<script>
+    function onclickAlert() {
+        alert("Your application has been submitted.");
+    }
+</script>
 </html>
